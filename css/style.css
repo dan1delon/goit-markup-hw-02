@@ -1,0 +1,123 @@
+body {
+font-family: Roboto, sans-serif;
+color: #2E2F42;
+background-color: #fff;
+}
+
+ul {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+address {
+font-style: normal;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+
+/** ========== Header ========== **/
+
+.logo {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.navigation-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.navigation-link:active {
+    color: var(--OCEAN, #404BBF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.navigation-link:hover {
+color: var(--OCEAN, #404BBF);
+}
+
+.navigation-link:focus {
+    color: var(--OCEAN, #404BBF);
+}
+
+.address-link {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-link:active {
+color: var(--OCEAN, #404BBF);
+}
+
+.address-link:hover {
+color: var(--OCEAN, #404BBF);
+}
+
+.address-link:focus {
+    color: var(--OCEAN, #404BBF);
+}
+
+/** ================================= **/
+
+/** ========== Main banner ========== **/
+
+.banner {
+background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.header-banner {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.banner-btn {
+color: var(--WHITE, #FFF);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
