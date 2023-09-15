@@ -1,6 +1,6 @@
 body {
 font-family: Roboto, sans-serif;
-color: #2e2f42;
+color: #434455;
 background-color: #fff;
 }
 
@@ -16,27 +16,11 @@ address {
 font-style: normal;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-
-
 /** ========== Header ========== **/
 
 .logo {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -44,8 +28,8 @@ font-style: normal;
     text-transform: uppercase;
 }
 
-.logo span {
-    color: #4D5AE5;
+.logo-black {
+    color: #2e2f42;
 }
 
 .navigation-link {
@@ -61,7 +45,6 @@ font-style: normal;
 }
 
 .address-link {
-    color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -88,23 +71,29 @@ background: var(--NAVY-BLUE, #2E2F42);
 }
 
 .banner-btn {
-font-family: Roboto;
+font-family: Roboto, sans-serif;
 color: var(--WHITE, #FFF);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
+background-color: #4D5AE5
+}
+
+.banner-btn:active, .banner-btn:hover, .banner-btn:focus {
+    background-color: #404BBF
 }
 
 /** ================================= **/
 /** ========== Our strengths ========== **/
 
 .strengths {
-background: #FFF;
+background: #FFFFFF;
 }
 
 .strengths-list-header {
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -113,7 +102,6 @@ background: #FFF;
 }
 
 .strengths-list-text {
-    color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -128,6 +116,7 @@ background: var(--CLOUD, #F4F4FD);
 }
 
 .team-header {
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -136,7 +125,12 @@ background: var(--CLOUD, #F4F4FD);
     text-transform: capitalize;
 }
 
+.team-list-item {
+    background-color: #FFFFFF
+}
+
 .team-list-name {
+    color: #2E2F42;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
@@ -145,7 +139,6 @@ background: var(--CLOUD, #F4F4FD);
 }
 
 .team-list-text {
-    color: var(--SLATE, #434455);
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
@@ -156,10 +149,11 @@ background: var(--CLOUD, #F4F4FD);
 /** ============ Portfolio ============ **/
 
 .portfolio {
-background: #FFF;
+background: #FFFFFF;
 }
 
 .portfolio-header {
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -169,6 +163,7 @@ background: #FFF;
 }
 
 .portfolio-list-header {
+color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
@@ -176,7 +171,6 @@ letter-spacing: 0.02em;
 }
 
 .portfolio-list-text {
-    color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -190,8 +184,8 @@ background: var(--NAVY-BLUE, #2E2F42);
 }
 
 .logo-footer {
-    color: var(--CLOUD, #F4F4FD);
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -199,8 +193,8 @@ background: var(--NAVY-BLUE, #2E2F42);
     text-transform: uppercase;
 }
 
-.logo-footer span {
-color: var(--IRIS, #4D5AE5);
+.logo-white {
+color: #f4f4fd;
 }
 
 .footer-text {
